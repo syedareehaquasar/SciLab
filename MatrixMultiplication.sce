@@ -26,7 +26,7 @@ end
 for i = 1:m
     for j = 1:q
         for k = 1:n
-            C(i, j) = A(i, j) * B(k , j)
+            C(i, j) = C(i, j) + (A(i, j) * B(k , j))
         end
     end
 end
