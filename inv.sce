@@ -41,5 +41,7 @@ function [B] = inv(A)
     Aug(:, 1:3) = []
     B = Aug(:, 1: 3);
     
+    printf('\n\n Name - Syeda Reeha Quasar \n Enrolment No. - 14114802719 \n Group - C7 \n\n')
+    
     disp('The inverse of given matrix is:- ')
 endfunction
